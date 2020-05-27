@@ -6,10 +6,14 @@
     </head>
     <body>
 		<h1>レポートチェック用編集</h1>
-		<label for='gno'>学籍番号:</label>
-		<input id='gno' type='text'>
-		<textarea id='rtxt' cols="100" rows="10"></textarea>
-        <a id="download" href="#" download="test.txt" onclick="handleDownload()">ダウンロード</a>
+		<div>
+			<label for='gno'>学籍番号:</label>
+			<input id='gno' type='text'>
+			<a id="download" href="#" onclick="handleDownload()">ダウンロード</a>
+		</div>
+		<div>
+			<textarea id='rtxt' cols="100" rows="100"></textarea>
+		</div>
 		<script src="index.js"></script>
     </body>
 	<!-- https://qiita.com/wadahiro/items/eb50ac6bbe2e18cf8813 -->
