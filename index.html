@@ -2,14 +2,18 @@
 <html lang="ja">
 	<head>
 		<meta charset="utf-8">
-	<title>reportEditor</title>
+		<title>reportEditor</title>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<style>
+			.icon { vertical-align: bottom; }
+		</style>
 	</head>
 	<body>
 		<h1>レポートチェック用編集</h1>
 		<div>
 			<label for='gno'>学籍番号:</label>
 			<input id='gno' type='text'>
-			<a id="download" href="#" onclick="handleDownload()">ダウンロード</a>
+			<a id="download" href="#" onclick="handleDownload()"><i class="material-icons icon">cloud_download</i>ダウンロード</a>
 		</div>
 		<div>
 			<textarea id='rtxt' cols="100" rows="40"></textarea>
